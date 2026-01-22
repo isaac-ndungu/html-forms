@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+
+    <form>
+        <label for="firstName">First Name</label> <br>
+        <input type="text" required placeholder="Nelson" >
+        <br><br>
+        <label for="secondName">Second Name</label> <br>
+        <input type="text" required placeholder="Mandela">
+        <br><br>
+        <label for="phoneNumber">Phone Number</label> <br>
+        <input type="text" placeholder="0701020304">
+        <br><br>
+        <label for="email">Email Address</label><br>
+        <input type="email" placeholder="nelsonmandela@gmail.com" required>
+        <br><br> 
+        <p>Choose your preferred program</p>
+        <select>
+            <optgroup>
+                <option value="soft-eng">Software Engineering Core</option>
+                <option value="data-sci">Data Science Core</option>
+                <option value="front-dev">Frontend Development Focus</option>
+                <option value="Data-anal">Data Analysis Core</option>
+                <option value="Adv-spec">Advanced Specialisations</option>
+                <option value="not-sure">I'm not sure yet! Help me decide.</option>
+            </optgroup>
+        </select>
+        <br>
+        <p>Choose your preferred schedule</p>
+            <select>
+                <optroup>
+                    <option value="part-time">Part-Time</option>
+                    <option value="full-hybrid">Full-Time Hybrid</option>
+                    <option value="full-time">Full-Time Remote</option>
+                </optroup>
+            </select>
+            <br><br><br>
+
+        <button type="submit">Complete Application</button>
+    </form>
+</body>
+</html>
